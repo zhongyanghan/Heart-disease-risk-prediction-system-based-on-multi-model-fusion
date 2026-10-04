@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 反馈模块运行时生成的 Word 文档
+*_意见.docx
+
+# Notebook 运行时导出的分析图片
+/[1-7].png
+/*.png
+!docs/**.png
+relitu.xlsx
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 本地工作目录（不属于项目本身）
+.workbuddy/
